@@ -80,6 +80,9 @@ Detected alerts:
 •	Possible password guessing
 Log source:
 /var/ossec/alerts/alerts.log
+
+![Brute Force Attack from Kali linux Machine to Ubuntu Machine](./screenshots/Brute force attack to ubuntu.png)
+
 ________________________________________
 2️⃣ Windows Suspicious Command Execution
 Test command:
