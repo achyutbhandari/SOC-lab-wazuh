@@ -81,7 +81,8 @@ Detected alerts:
 Log source:
 /var/ossec/alerts/alerts.log
 
-![Brute Force Attack from Kali linux Machine to Ubuntu Machine](./screenshots/Brute force attack to ubuntu.png)
+![Brute Force Attack from Kali linux Machine to Ubuntu Machine](./screenshots/Brute%20force%20attack%20to%20ubuntu.png)
+
 
 ________________________________________
 2️⃣ Windows Suspicious Command Execution
