@@ -91,19 +91,25 @@ Invoke-WebRequest https://secure.eicar.org/eicar.com
 Detected alerts:
 •	Suspicious PowerShell execution
 •	Malware test file download attempt
+
+![Detect Malware file download attempt from Windows Machine](./screenshots/Milacious%20virus%20download%20detected%20logs.png)
 ________________________________________
 3️⃣ Linux Privilege Escalation Monitoring
 sudo su
 Detected alerts:
 •	Privilege escalation
 •	Sudo usage monitoring
+
+![Privilege Escalation on Ubuntu Device Monitoring](./screenshots/Priviledge%20access%20attempt.png)
 ________________________________________
 4️⃣ File Integrity Monitoring (FIM)
 Test:
 touch /etc/testfile
 Detected alerts:
 •	New file creation in monitored directory
-________________________________________
+![Detected Create of New test file](./screenshots/File%20Integrity%20Monitoring.png)
+
+
 🔎 Alert Analysis
 Alerts were observed using:
 sudo tail -f /var/ossec/logs/alerts/alerts.log
