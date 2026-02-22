@@ -34,11 +34,11 @@ sudo systemctl status wazuh-manager
 sudo systemctl status wazuh-dashboard  
 ________________________________________
 ### Ubuntu Agent Installation
-curl -sO https://packages.wazuh.com/4.x/wazuh-agent.sh
-sudo bash wazuh-agent.sh -a 192.168.10.7
-Start agent:
-sudo systemctl enable wazuh-agent
-sudo systemctl start wazuh-agent
+curl -sO https://packages.wazuh.com/4.x/wazuh-agent.sh  
+sudo bash wazuh-agent.sh -a 192.168.10.7  
+Start agent:  
+sudo systemctl enable wazuh-agent  
+sudo systemctl start wazuh-agent  
 ________________________________________
 ### Windows Agent Installation
 1.	Download Wazuh Agent MSI.
