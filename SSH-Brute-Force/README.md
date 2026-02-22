@@ -62,7 +62,7 @@ Custom rules location:
 MITRE Mapping
 Technique	Description
 T1110	Brute Force
-![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](../ssh_brute_force_detection_rules_and_mitre_mapping)
+![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](./screenshots/ssh_brute_force_detection_rules_and_mitre_mapping.png)
 
 ### Command Executed
 hydra -l achyut -P rockyou.txt ssh://192.168.10.6
@@ -76,8 +76,7 @@ hydra -l achyut -P rockyou.txt ssh://192.168.10.6
 ### Logs monitored:
 /var/log/auth.log
 Example log entries:
-![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](../ssh/mitre_of_ssh_brute_force_attack
-)
+![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](./screenshots/mitre_of_ssh_brute_force_attack.png)
 These repeated authentication failures indicate brute-force behavior.
 
 ## MITRE ATT&CK Mapping
