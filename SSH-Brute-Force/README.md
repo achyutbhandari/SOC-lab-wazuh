@@ -62,7 +62,12 @@ Custom rules location:
 MITRE Mapping
 Technique	Description
 T1110	Brute Force
-![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](./screenshots/ssh_brute_force_detection_rules_and_mitre_mapping.png)
+
+<p align="center">
+  <img src="./screenshots/ssh_brute_force_detection_rules_and_mitre_mapping.png" width="900"/>
+  <br>
+  <em>Figure 1: Local Detection Rules for SSH Brute Force Attack and Mitre Mapping</em>
+</p>
 
 ### Command Executed
 hydra -l achyut -P rockyou.txt ssh://192.168.10.6
@@ -73,10 +78,30 @@ hydra -l achyut -P rockyou.txt ssh://192.168.10.6
 - Rapid login failures in short timeframe
 
 ## Log Evidence (Ubuntu Server)
-### Logs monitored:
+### Logs Monitored:
 /var/log/auth.log
 Example log entries:
-![Local Detection Rules for SSH Brute Force attack and Mitre Mapping](./screenshots/mitre_of_ssh_brute_force_attack.png)
+
+<p align="center">
+  <img src="./screenshots/mitre_of_ssh_brute_force_attack.png" width="900"/>
+  <br>
+  <em>Figure 2: Log Monitored of SSH Bute Force Attack and Mitre Mapping</em>
+</p>
+
+### Dashboard Monitored
+
+<p align="center">
+  <img src="./screenshots/SSH_Brute_Force_Alert.png" width="900"/>
+  <br>
+  <em>Figure 3: SSH Brute Force Alert</em>
+</p>
+
+<p align="center">
+  <img src="./screenshots/SSH_brute_Force_Details.png" width="900"/>
+  <br>
+  <em>Figure 4: SSH Brute Force Alert Details</em>
+</p>
+
 These repeated authentication failures indicate brute-force behavior.
 
 ## MITRE ATT&CK Mapping
